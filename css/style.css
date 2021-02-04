@@ -203,7 +203,7 @@ p {
 }
 
 #about .about-des {
-  	padding: 65px;
+  	padding: 55px;
 }
 
 #about .about-des h3 {
@@ -263,8 +263,8 @@ p {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #counter .counter-number {
@@ -343,6 +343,7 @@ p {
 footer {
   padding-top: 80px;
   padding-bottom: 50px;
+  background-color: #dddcdc;
 }
 
 footer p {
@@ -376,7 +377,7 @@ footer a:hover {
   display: inline-block;
 }
 .social-icon li a {
-  background: #3c3c3c;
+  background: #2c2c2c;
   border-radius: 100%;
   color: #ffffff;
   font-size: 18px;
