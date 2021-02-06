@@ -263,8 +263,8 @@ p {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #counter .counter-number {
@@ -454,3 +454,32 @@ footer a:hover {
     font-size: 9px;
   }
 }
+
+
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+/* section {
+    padding: 60px 0;
+  } */
+  
+  .section-bg {
+    background-color: whitesmoke;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
