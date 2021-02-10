@@ -258,7 +258,7 @@ p {
 /* Counter section styles
 /* ========================================== */
 #counter {
-   background: url('../images/counter-bg.jpg') 50% 0 repeat-y fixed;
+   background: url('../images/row_background.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -281,7 +281,7 @@ p {
 /* contact section styles
 /* ========================================== */
 #contact {
-  background: url('../images/counter-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/row_background.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -290,7 +290,7 @@ p {
 #contact .form-control {
   background: transparent;
   border-color: #ffffff;
-  color: #ffffff;
+  color: #0e0d0d;
   border-radius: 0px;
   box-shadow: none;
   margin-bottom: 22px;
@@ -300,7 +300,7 @@ p {
 }
 
 #contact input[type="submit"] {
-  background: #000000;
+  background: #dddcdc;
   border:none;
   border-radius: 4px;
   font-weight: bold;
