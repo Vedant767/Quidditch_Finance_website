@@ -66,7 +66,6 @@
     font-size: 32px;
     font-weight: 300;
     margin-bottom: 20px;
-    padding-bottom: 0;
     color: #555;
     font-weight: bold;
   }
@@ -127,4 +126,13 @@
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+}
+
+@media (max-width: 650px) {
+ .section_title{
+  padding-bottom: 10px;
+ }
+ .img_about_us{
+   border-radius: 50%;
+ }
 }

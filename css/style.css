@@ -395,16 +395,17 @@ footer a:hover {
 
 
 
+
 @media (max-width: 1280px) {
 	#about .about-des {
-		padding: 40px;
+		padding: 20px;
 	}
 	#about .about-des h3 {
 		font-size: 20px;
 	}
 	
 	#about .about-des h4 {
-		font-size: 16px;
+		font-size: 20px;
 	}
 	
 	#about .about-des p {
@@ -419,18 +420,37 @@ footer a:hover {
     font-size: 53px;
   }
   #counter .counter-item {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
   }
   
-  .img-responsive {
-    padding-right: 7%;
+  .img-responsive{
+    width: 100%;
+    height: auto;
+  }
+  .nav_bar{
+    padding-top: 12%;
+  }
+  .home_image{
+    size: 20%;
+    font-size: xx-small;
   }
 }
 
 @media (max-width: 650px) {
   h1 {
     font-size: 40px;
+  }
+  .nav_bar{
+    padding-top: 15%;
+  }
+  .home_image h2{
+    size: 10%;
+    font-size: large;
+  }
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -446,6 +466,7 @@ footer a:hover {
     display: inline-block;
     padding: 14px 32px;
   }
+  
 }
 
 @media (max-width: 375px) {

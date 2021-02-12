@@ -27,13 +27,13 @@
         });
     }
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-  /* Hide mobile menu after clicking on a link
-    -----------------------------------------------*/
-    $('.navbar-collapse a').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
+//   /* Hide mobile menu after clicking on a link
+//     -----------------------------------------------*/
+//     $('.navbar-collapse a').click(function(){
+//         $(".navbar-collapse").collapse('hide');
+//     });
 
 
   /* jQuery to collapse the navbar on scroll
