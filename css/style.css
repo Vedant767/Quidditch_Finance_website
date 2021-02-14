@@ -28,12 +28,12 @@ html,body {
 /* Typography
 ------------------------------------- */
 h1,h2,h3,h4,h5 {
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 h1 {
-  font-size: 62px;
-  line-height: 72px;
+  font-size: 26px;
+  line-height: 42px;
 }
 
 h2 {
@@ -176,6 +176,11 @@ p {
   background: #ffa400;
 }
 
+#home_section_id{
+  padding-top: 40px;
+  font-size: xx-large;
+}
+
 
 /* testimonial section styles
 /* ========================================== */
@@ -203,10 +208,10 @@ p {
 }
 
 #about .about-des {
-  	padding: 55px;
+  	padding: 45px;
 }
 
-#about .about-des h3 {
+#about .about-des {
 	font-size: 26px;
 }
 
@@ -288,7 +293,7 @@ p {
 }
 
 #contact .form-control {
-  background: rgba(228, 226, 226, 0.75);
+  background: rgb(228, 226, 226);
   border-color: #161616;
   color: #0e0d0d;
   border-radius: 0px;
@@ -300,7 +305,7 @@ p {
 }
 
 #contact input[type="submit"] {
-  background: #dddcdc;
+  background: #e0e0e0;
   border:none;
   border-radius: 4px;
   font-weight: bold;
@@ -325,7 +330,7 @@ p {
 }
 
 #contact .contact-detail {
-  background: rgba(228, 226, 226, 0.75);
+  background: rgb(228, 226, 226);
   padding: 34px 10px 34px 60px;
 }
 
@@ -335,6 +340,14 @@ p {
 
 #contact .contact-detail div {
   padding-bottom: 10px;
+}
+
+.contact-detail h4{
+  font-size: large;
+}
+
+.contact-detail p {
+  font-size: small;
 }
 
 
@@ -393,8 +406,33 @@ footer a:hover {
   background: #ffa400;
 }
 
+#home_second {
+  background: url('../images/black-texture.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  text-align: center;
+  width: auto;
+  height: 150px;
+}
 
+#home_second h2{
+  font-size: large;
+  padding-top: 40px;
+}
 
+#service_1_id {
+  padding-top: 100px;
+}
 
 @media (max-width: 1280px) {
 	#about .about-des {
@@ -429,13 +467,147 @@ footer a:hover {
     height: auto;
   }
   .nav_bar{
-    padding-top: 12%;
+    padding-top:12%;
   }
   .home_image{
     size: 20%;
     font-size: xx-small;
   }
+
+  
+/* Typography
+------------------------------------- */
+h1 {
+  font-size: 10px;
+  line-height: 72px;
 }
+
+h2 {
+  color: #323232;
+  font-size: smaller;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding-bottom: 12px;
+}
+
+h3 {
+  color: #ffa400;
+  font-size: 16px;
+  letter-spacing: 26px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  color: #ffa400;
+  line-height: 28px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: 0.9px;
+  line-height: 32px;
+}
+
+/* about section styles
+/* ========================================== */
+#about .container {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#about .col-md-6{
+padding: 0px;
+}
+
+#about .about-des {
+  padding: 30px;
+}
+
+#about .about-des {
+font-size: 16px;
+}
+
+#about .about-des h4 {
+font-size: 20px;
+}
+
+#about .about-des p {
+font-size: 12px;
+line-height: 30px;
+}
+
+#counter h2{
+  font-size: large;
+}
+
+.about-des h1{
+font-size: larger;
+}
+
+#contact .contact-detail {
+  background: rgb(228, 226, 226);
+  /* padding: 34px 10px 34px 60px; */
+  padding: 24px 5px 24px 30px;
+}
+
+#contact .contact-detail h2 {
+  padding-bottom: 28px;
+}
+
+.contact-detail h1{
+  font-size: x-large;
+}
+
+#contact .contact-detail div {
+  padding-bottom: 10px;
+}
+
+
+
+/* footer section styles
+/* ========================================== */
+footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #dddcdc;
+}
+
+footer p {
+  padding-right: 40px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+footer a {
+  color: #606060;
+}
+
+footer h1{
+  font-size: x-large;
+}
+
+footer a:hover {
+  color: #ffa400;
+  text-decoration: none;
+}
+
+#home_second {
+  width: auto;
+  height: 50px;
+}
+
+#home_section_id{
+  font-size: large;
+  padding-bottom: 50px;
+}
+
+#service_1_id {
+  padding-top: 20px;
+}
+
 
 @media (max-width: 650px) {
   h1 {
