@@ -5,12 +5,18 @@ Template 2077 Modern Town
 http://www.tooplate.com/view/2077-modern-town
 
 */
-
+#img_1 {
+  display: block;
+}
+#img_2 {
+  display:none;
+}
 /* Body 
 ------------------------------------- */
 body {
 		background: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Raleway'; */
     font-weight: 400;
     position: relative;
 }
@@ -134,14 +140,15 @@ p {
 
 #img_responsive{
   padding-left: 40px;
-  padding-top: 5%;
+  padding-top: 0%;
 }
 
 
 /* home section styles
 /* ========================================== */
 #home {
-  background: url('../images/black-texture.jpg') 50% 0 repeat-y fixed;
+  /* background: url('../images/page_home.jpg') 50% 0 repeat-y fixed; */
+  background-color: #161616;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -361,6 +368,12 @@ p {
   font-size: small;
 }
 
+#queries_services p{
+  font-weight: normal;
+  padding-left:30px;
+  text-align: center;
+  }
+
 
 /* footer section styles
 /* ========================================== */
@@ -445,6 +458,16 @@ footer a:hover {
   padding-top: 100px;
 }
 
+#service_2_id{
+  padding-top: 150px;
+  padding-left: 40px;
+}
+
+#phone_id{
+  font-size:large;
+  padding-top: 20px;
+  padding-left: 3px;
+}
 @media (max-width: 1280px) {
 	#about .about-des {
 		padding: 20px;
@@ -461,10 +484,32 @@ footer a:hover {
 		font-size: 13px;
 		line-height: 24px;
 	}
+  #home_quote{
+    font-size: large;
+  }
+  #img_1 {display: none;}
+  #img_2 {display: block;}
 }
 /* mobile responsive section styles
 /* ========================================== */
 @media (max-width: 768px) {
+
+
+  #queries_services p{
+
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 17px;
+  line-height: 28px;
+  }
+
+  #phone_id{
+    font-size:large;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
   h1 {
     font-size: 53px;
   }
@@ -484,11 +529,9 @@ footer a:hover {
     size: 20%;
     font-size: xx-small;
   }
-/* 
-  #demat_id{
-    font-size:smaller;
-  }
-   */
+  
+  #img_1 {display: none;}
+  #img_2 {display: block;}
 /* Typography
 ------------------------------------- */
 h1 {
@@ -556,11 +599,11 @@ line-height: 28px;
   padding:0px;
 } */
 #counter h2{
-  font-size: large;
+  font-size: small;
 }
 
 .about-des h1{
-font-size: larger;
+font-size: x-large;
 }
 
 #contact .contact-detail {
@@ -589,6 +632,9 @@ font-size: larger;
   padding-right: 50px;
   width: auto;
 }
+#courses_img{
+  padding-top: 0px;
+}
 
 /* footer section styles
 /* ========================================== */
@@ -611,6 +657,7 @@ footer a {
 
 footer h1{
   font-size: x-large;
+  color: #000000;
 }
 
 footer a:hover {
@@ -632,6 +679,11 @@ footer a:hover {
   padding-top: 20px;
 }
 
+#service_2_id{
+  padding-top: 20px;
+  width: 100%;
+  padding-right: 40px;
+}
 
 @media (max-width: 650px) {
   h1 {
@@ -644,10 +696,16 @@ footer a:hover {
     size: 10%;
     font-size: large;
   }
+  #home_section_id{
+    font-size: small;
+    padding-bottom: 50px;
+  }
   img {
     width: 100%;
     height: auto;
   }
+  #img_1 {display: none;}
+  #img_2 {display: block;}
 }
 
 @media (max-width: 450px) {
@@ -662,7 +720,8 @@ footer a:hover {
     display: inline-block;
     padding: 14px 32px;
   }
-  
+  #img_1 {display: none;}
+  #img_2 {display: block;}
 }
 
 @media (max-width: 375px) {
@@ -672,6 +731,12 @@ footer a:hover {
   }
   #home h5 {
     font-size: 9px;
+  }
+  #img_1 {display: none;}
+  #img_2 {display: block;}
+  #home_section_id{
+    font-size: small;
+    padding-bottom: 50px;
   }
 }
 
@@ -701,5 +766,6 @@ footer a:hover {
   }
   
   .section-title p {
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
+

@@ -82,3 +82,19 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 43%;
     color: black;
 }
+
+#demate_logo{
+  padding-left: 140px;
+  width: 900px;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+#demate_logo{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  width: 500px;
+  height: 200px;
+}
+}

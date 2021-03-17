@@ -40,7 +40,7 @@ if($_POST) {
    ini_set("sendmail_from", $to); // for windows server
    $mail = mail($to, $subject, $message, $headers);
 
-	if ($mail) { echo "OK"; }
+	if ($mail) { header ("Location: https://quidditchfinance.com/"); }
    else { echo "Something went wrong. Please try again."; }
 
 }
